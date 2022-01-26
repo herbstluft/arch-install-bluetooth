@@ -1,0 +1,4 @@
+sudo pacman -S bluez blueman bluez-utils
+sudo rfkill unblock bluetooth
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
